@@ -2,6 +2,7 @@ import { BsTwitter } from "react-icons/bs";
 import { FaRedditAlien } from "react-icons/fa";
 import logo from "../img/kvq-logo.svg";
 import { Outlet, Link } from "react-router-dom";
+import {FiChevronDown} from 'react-icons/fi'
 import "./Header.scss";
 
 function Header() {
@@ -28,7 +29,15 @@ function Header() {
 
         <ul>
           <li>
-            <a href="#">Sports</a>
+            <a href="#">Sports <FiChevronDown></FiChevronDown></a>
+            <ul className="dropdown">
+              <li> lorem ipsum </li>
+              <li> lorem ipsum </li>
+              <li> lorem ipsum </li>
+              <li> lorem ipsum </li>
+
+             
+            </ul>
           </li>
           <li>
             <Link to='/lottery'> Lottery</Link>

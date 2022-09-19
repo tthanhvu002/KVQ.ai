@@ -1,23 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif !important;
+}
 .App {
   text-align: center;
 }
 
-.wrapper{
-  padding-bottom: 50px;
+.wrapper {
   overflow: hidden;
 }
-.d-flex{
+.d-flex {
   display: flex;
 }
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-ul,h1,h2,h3,p{
+ul,
+h1,
+h2,
+h3,
+p {
   margin: 0 !important;
   padding: 0 !important;
 }
-a{
+a {
   text-decoration: none !important;
   color: #fff !important;
 }
@@ -26,7 +33,7 @@ a{
     animation: App-logo-spin infinite 20s linear;
   }
 }
-.content{
+.content {
   flex: 1;
   background-color: #000;
   padding: 25px;
@@ -55,9 +62,8 @@ a{
   }
 }
 
-
 @media screen and (max-width: 767.98px) {
-  .content-container{
+  .content-container {
     flex-wrap: wrap;
   }
 }

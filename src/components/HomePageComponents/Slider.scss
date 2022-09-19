@@ -1,0 +1,17 @@
+.slider{
+    .carousel{
+        &-indicators{
+            button{
+                width: 15px !important;
+                height: 15px !important;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .slider{
+        margin: 0 -25px;
+    }
+}

@@ -4,6 +4,7 @@ import Sidebar from "../../components/Sidebar";
 import Filter from "../../components//Filter";
 import Title from "../../components/Title";
 import Banner from "../../components/HomePageComponents/Banner";
+import Slider from "../../components/HomePageComponents/Slider";
 import FeaturedPools from "../../components/HomePageComponents/FeaturedPools";
 import OtherPools from "../../components/HomePageComponents/OtherPools";
 import "./HomePage.scss";
@@ -16,7 +17,7 @@ function HomePage() {
           <Sidebar></Sidebar>
           <Filter></Filter>
           <div className="content">
-          <Banner></Banner>
+            <Slider></Slider>
             <Title>Featured Pools</Title>
             <FeaturedPools></FeaturedPools>
             <Title>Other Pools</Title>
