@@ -1,0 +1,87 @@
+.earn-reward {
+    .content {
+        padding: 2% 10%;
+        min-height: 100vh;
+  }
+  .row {
+    
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #ffffff;
+  }
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #ffffff;
+  }
+  .approve {
+    &-info {
+      margin-top: 12px;
+      flex-direction: column;
+      display: flex;
+        }
+
+    .input-wrap {
+      display: flex;
+      align-items: center;
+      color: #fff;
+    }
+    &-btn {
+      background: #f6be4b;
+      border-radius: 5px;
+      padding: 12px 0;
+      width: 100%;
+      margin-top: 15px;
+      font-weight: 600;
+      color: #000;
+      text-align: center;
+    }
+  }
+
+  .earn-info {
+    margin-left: 10px;
+    background: #181818;
+    border-radius: 10px;
+    padding: 35px 28px;
+    ul {
+      list-style: none;
+      padding-left: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+
+          color: #939292;
+        }
+        span {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: right;
+
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 767.98px) {
+  .row{
+    gap: 20px;
+  }
+}

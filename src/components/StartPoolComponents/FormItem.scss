@@ -1,0 +1,44 @@
+.input-wrap {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  span {
+    color: #fff;
+  }
+  input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+  }
+  textarea {
+    height: 154px;
+  }
+  select,
+  input,
+  textarea {
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    padding: 13px 17px;
+    border: 1px solid #3a3a3a;
+    border-radius: 5px;
+    background-color: transparent;
+    outline: none;
+  }
+  .range {
+    border: none;
+    background-color: #f6be4b;
+    -webkit-appearance: none;
+    outline: none;
+    height: 0;
+    padding: 4px;
+  }
+  .range::-webkit-slider-thumb {
+    background-color: #fff;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+}

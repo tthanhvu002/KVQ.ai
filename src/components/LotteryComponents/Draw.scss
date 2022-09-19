@@ -1,0 +1,35 @@
+.draw {
+  padding: 83px 368px;
+  .board {
+    padding: 26px 45px;
+    background: #181818;
+    border-radius: 10px;
+    h1 {
+      margin-bottom: 72px !important;
+      color: #fff;
+      text-align: center;
+    }
+  }
+  p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #c4c7cc;
+  }
+}
+@media screen and (max-width: 1023.98px) {
+  .draw{
+    padding: 0 10%;
+    
+  }
+}
+
+
+@media screen and (max-width: 767.98px) {
+  .draw{
+    .board{
+      padding: 15px 25px;
+    }
+  }
+}

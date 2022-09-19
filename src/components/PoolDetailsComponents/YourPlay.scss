@@ -1,0 +1,74 @@
+.your-plays {
+  background: #181818;
+  border-radius: 10px;
+  margin-top: 16px;
+  padding: 22px;
+  h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  table {
+    text-align: left;
+    width: 100%;
+    th {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+      padding: 25px;
+      color: #939292;
+      border-bottom: 1px solid #3a3a3a;
+    }
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+
+      color: #ffffff;
+    }
+    td {
+      border-bottom: 1px solid #3a3a3a;
+      color: #fff;
+      padding: 25px;
+      text-align: left;
+    }
+    .time {
+      text-align: left;
+      span {
+        color: #939292;
+      }
+    }
+    .team {
+      text-align: left;
+      transform: translateX(-10%);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    svg {
+      font-size: 18px;
+    }
+    td {
+    }
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .your-plays {
+    padding: 10px;
+    width: 300px;
+    .team {
+      flex-direction: column;
+    }
+    table {
+      th,
+      td {
+        padding: 10px;
+      }
+    }
+  }
+}

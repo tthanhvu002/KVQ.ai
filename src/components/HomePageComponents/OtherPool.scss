@@ -1,0 +1,99 @@
+.other-pool {
+  background: #181818;
+  border-radius: 10px;
+  padding: 11px 13px;
+ 
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .league{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        gap: 6px;
+    }
+    p {
+      color: #939292;
+      font-size: 12px;
+    }
+    button {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+
+      color: #f6be4b;
+      background-color: transparent;
+      border: none;
+    }
+  }
+  p{
+    color: #939292;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .body{
+    display: flex;
+    gap: 127px;
+    .match-info{
+        margin-left: 15px;
+        background-color: unset;
+        display: unset;
+        padding: unset;
+        .match-time{
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .team{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 15px;
+            p{
+                color: #fff;
+                font-weight: 700;
+                font-size: 14px;
+            }
+        }
+        
+        align-items: center;
+    }
+
+    .bet-info{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        
+        li{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            span{
+                color: #fff;
+            }
+        }
+    }
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .other-pool{
+    .body{
+      gap: 30px;
+      flex-direction: column;
+
+      .bet-info{
+        align-items: unset;
+        li{
+          gap: 0;
+          p{
+            min-height: 50px;
+          }
+        }
+      }
+    }
+  }
+}

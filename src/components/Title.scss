@@ -1,0 +1,20 @@
+.title {
+    background-color: #000;
+    padding: 27px;
+    display: flex;
+    align-items: center;
+  .line {
+    width: 5px;
+    height: 37px;
+    background-color: #f6be4b;
+  }
+  p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #ffffff;
+    margin-left: 11px;
+  }
+}

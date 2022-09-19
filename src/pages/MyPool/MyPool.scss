@@ -1,0 +1,39 @@
+.my-pool {
+  h2 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 25px !important; 
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    color: #939292;
+  }
+  input[type='checkbox']{
+    width: 17px;
+    height: 17px;
+
+  }
+  select{
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    background-color: transparent;
+  }
+}

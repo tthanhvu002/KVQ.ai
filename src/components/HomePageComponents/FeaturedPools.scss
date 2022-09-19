@@ -1,0 +1,12 @@
+.featured-pools{
+    display: flex;
+    gap: 19px;
+    background-color: #000;
+
+}
+
+@media screen and (max-width: 1023.98px) {
+    .featured-pools{
+        flex-wrap: wrap;
+    }
+}

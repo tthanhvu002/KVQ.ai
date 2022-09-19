@@ -1,0 +1,32 @@
+.start-pool-form {
+  color: #fff;
+
+  .start-pool-body {
+    padding: 5%;
+  }
+
+  .approve-btn {
+    background: #f6be4b;
+    border-radius: 5px;
+    width: 100%;
+    padding: 11px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+}
+
+@media screen and (max-width: 767.98px) {
+  .start-pool-form{
+    width: 324px;
+    .match-info{
+      padding: 15px 0;
+      flex-direction: column;
+    }
+  }
+}
+

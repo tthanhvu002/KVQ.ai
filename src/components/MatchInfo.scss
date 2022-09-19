@@ -1,0 +1,21 @@
+.match-info {
+    padding: 45px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 53px;
+    background: #2f2f2f;
+    border-radius: 10px 10px 0px 0px;
+    color: #fff;
+    .team {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .team.team-2 {
+      flex-direction: row-reverse;
+    }
+    .time {
+      text-align: center;
+    }
+  }

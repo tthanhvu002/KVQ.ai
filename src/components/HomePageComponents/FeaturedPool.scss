@@ -1,0 +1,62 @@
+.featured-pool {
+  background: #181818;
+  border-radius: 10px;
+  padding: 19px;
+  width: calc(33.33333% - 20px);
+  .top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    .time {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+
+      color: #939292;
+    }
+    p {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+
+      color: #f6be4b;
+    }
+  }
+
+  .body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #ffffff;
+
+    .team-info {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+
+      color: #ffffff;
+      p {
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023.98px) {
+  .featured-pool{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .featured-pool{
+    width: 100%;
+  }
+}
