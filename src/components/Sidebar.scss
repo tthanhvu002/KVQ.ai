@@ -1,6 +1,8 @@
 .sidebar {
   width: 8%;
   background-color: #000;
+  border-right: 1px solid #282828;
+padding: 0 5px;
   ul {
     list-style: none;
     display: flex;
@@ -11,7 +13,6 @@
     padding: 15px;
     padding-top: 25px !important;
     gap: 33px;
-    border-right: 1px solid #282828;
 
     li{
       text-align: center;

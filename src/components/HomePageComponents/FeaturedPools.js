@@ -2,6 +2,8 @@ import team1 from "../../img/fb1.svg";
 import team2 from "../../img/fb2.svg";
 import FeaturedPool from "./FeaturedPool";
 import "./FeaturedPools.scss";
+import { Outlet, Link } from "react-router-dom";
+
 function FeaturedPools() {
   const data = [
     {
@@ -36,11 +38,13 @@ function FeaturedPools() {
     },
   ];
   return (
-    <div className="featured-pools">
-      {data.map((item, index) => {
-        return <FeaturedPool info={item} key={index}></FeaturedPool>;
-      })}
-    </div>
+    <Link to='/pooldetail'>
+      <div className="featured-pools">
+        {data.map((item, index) => {
+          return <FeaturedPool info={item} key={index}></FeaturedPool>;
+        })}
+      </div>
+    </Link>
   );
 }
 

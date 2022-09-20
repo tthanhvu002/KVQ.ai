@@ -1,19 +1,18 @@
 import Carousel from "react-bootstrap/Carousel";
-import Banner from "./Banner";
 import "./Slider.scss";
-
+import banner from '../../img/banner.png'
 function Slider() {
   return (
     <div className="slider">
       <Carousel controls={false}>
         <Carousel.Item>
-          <Banner></Banner>
+            <img src={banner} alt="" />
         </Carousel.Item>
         <Carousel.Item>
-          <Banner></Banner>
+            <img src={banner} alt="" />
         </Carousel.Item>
         <Carousel.Item>
-          <Banner></Banner>
+            <img src={banner} alt="" />
         </Carousel.Item>
       </Carousel>
     </div>

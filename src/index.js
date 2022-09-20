@@ -33,6 +33,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}></Route>
+        <Route path="/pooldetail" element={<PoolDetail />}></Route>
 
         <Route path="/mypool" element={<MyPool />}></Route>
         <Route path="/startpool" element={<StartPool />}></Route>

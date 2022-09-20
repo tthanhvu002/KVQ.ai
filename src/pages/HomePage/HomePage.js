@@ -17,7 +17,7 @@ function HomePage() {
           <Sidebar></Sidebar>
           <Filter></Filter>
           <div className="content">
-            <Slider></Slider>
+          <Banner></Banner>
             <Title>Featured Pools</Title>
             <FeaturedPools></FeaturedPools>
             <Title>Other Pools</Title>
